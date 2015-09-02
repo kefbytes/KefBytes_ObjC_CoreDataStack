@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class KefPersistenceController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, readonly) KefPersistenceController *persistenceController;
 
 @end
 
